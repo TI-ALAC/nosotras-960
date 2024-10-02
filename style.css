@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'MYRIADPRO';
+    src: url(fonts/MYRIADPRO-BOLD.OTF);
+    font-weight: regular;
+}
+
+img {
+    object-fit: fill;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100vh;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#millones {
+    font-size: 45pt !important;
+    font-family: 'MYRIADPRO', sans-serif;
+    color: #FFF !important;
+    left: 80%;
+    top: 60%;
+    font-style: normal;
+    position: absolute;
+}
+
+#millones2 {
+    position: absolute;
+    font-size: 34pt !important;
+    font-family: 'MYRIADPRO', sans-serif;
+    color: #FFF !important;
+    left: 53%;
+    top: 35%;
+    font-style: normal;
+}
+
+#time { 
+    font-size: 2em;
+    display: flex;
+    align-items: flex-start;
+}
+
+#hours {
+    display: inline-block;
+}
+
+#ampm {
+    display: inline-block;
+    font-size: 48px;
+    margin-top: 37px;
+    margin-left: 25px;
+}
